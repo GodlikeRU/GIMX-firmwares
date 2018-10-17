@@ -29,6 +29,7 @@
 #define BYTE_TYPE_DF_PS2     0x0a
 #define BYTE_TYPE_DFP_PS2    0x0b
 #define BYTE_TYPE_GTF_PS2    0x0c
+#define BYTE_TYPE_KEYBOARD   0x0d
 
 #define BYTE_STATUS_NSPOOFED 0x00
 #define BYTE_STATUS_SPOOFED  0x01
