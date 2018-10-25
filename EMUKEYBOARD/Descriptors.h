@@ -68,12 +68,9 @@
 		};
 
 	/* Macros: */
-		/** Endpoint address of the Keyboard HID reporting IN endpoint. */
-		#define EPADDR              (ENDPOINT_DIR_IN | 1)
-
 		/** Size in bytes of the Keyboard HID reporting IN endpoint. */
 		#define EPSIZE              8
-		/** Endpoint number of the Joystick HID reporting IN endpoint. */
+		/** Endpoint number of the Keyboard HID reporting IN endpoint. */
 		#define IN_EPNUM            (ENDPOINT_DIR_IN | 1)
 		/** Endpoint number of the HID reporting OUT endpoint. */
 		#define OUT_EPNUM           (ENDPOINT_DIR_OUT | 2)

@@ -1,13 +1,12 @@
 /*
-  MODIFIED BY Daniel "GoDlike" Kucner (darkandan [at] windowslive [dot] com)
-
-  Copyright 2013  Mathieu Laurendeau (mat.lau [at] laposte [dot] net)
+  Copyright 2018 Daniel Kucner (darkandan [at] windowslive [dot] com)
 
   Redistributed under the GPLv3 licence.
 
   Based on code by
     Denver Gingerich (denver [at] ossguy [dot] com)
     Dean Camera (dean [at] fourwalledcubicle [dot] com)
+    Mathieu Laurendeau (mat.lau [at] laposte [dot] net)
 
   Original licence:
 
@@ -45,7 +44,7 @@
 
 #define USART_BAUDRATE 500000
 #define USART_DOUBLE_SPEED false
-#define DEBUG_INFO true
+//#define DEBUG_INFO true
 
 static bool UsingReportProtocol = true; // USE HID mode for Keyboard
 

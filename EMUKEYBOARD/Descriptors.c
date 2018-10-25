@@ -131,7 +131,7 @@ const USB_Descriptor_Configuration_t PROGMEM ConfigurationDescriptor =
 		{
 			.Header                 = {.Size = sizeof(USB_Descriptor_Endpoint_t), .Type = DTYPE_Endpoint},
 
-			.EndpointAddress        = EPADDR,
+			.EndpointAddress        = IN_EPNUM,
 			.Attributes             = (EP_TYPE_INTERRUPT | ENDPOINT_ATTR_NO_SYNC | ENDPOINT_USAGE_DATA),
 			.EndpointSize           = EPSIZE,
 			.PollingIntervalMS      = 0x05
@@ -157,7 +157,7 @@ const USB_Descriptor_String_t PROGMEM ManufacturerString =
 {
 	.Header                 = {.Size = USB_STRING_LEN(11), .Type = DTYPE_String},
 
-	.UnicodeString          = L"Dean Camera"
+	.UnicodeString          = L"Daniel Kucner"
 };
 
 /** Product descriptor string. This is a Unicode string containing the product's details in human readable form,
@@ -166,9 +166,9 @@ const USB_Descriptor_String_t PROGMEM ManufacturerString =
  */
 const USB_Descriptor_String_t PROGMEM ProductString =
 {
-	.Header                 = {.Size = USB_STRING_LEN(18), .Type = DTYPE_String},
+	.Header                 = {.Size = USB_STRING_LEN(13), .Type = DTYPE_String},
 
-	.UnicodeString          = L"LUFA Keyboard Demo"
+	.UnicodeString          = L"GIMX KEYBOARD"
 };
 
 /** This function is called by the library when in device mode, and must be overridden (see library "USB Descriptors"
