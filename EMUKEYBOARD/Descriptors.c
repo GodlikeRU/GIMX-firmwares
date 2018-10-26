@@ -155,7 +155,7 @@ const USB_Descriptor_String_t PROGMEM LanguageString =
  */
 const USB_Descriptor_String_t PROGMEM ManufacturerString =
 {
-	.Header                 = {.Size = USB_STRING_LEN(11), .Type = DTYPE_String},
+	.Header                 = {.Size = USB_STRING_LEN(13), .Type = DTYPE_String},
 
 	.UnicodeString          = L"Daniel Kucner"
 };
